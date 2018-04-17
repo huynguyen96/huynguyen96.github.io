@@ -1,0 +1,4 @@
+﻿ $(function(){
+	 $('[hieuung="popover"]').tooltip()
+})  
+ 
