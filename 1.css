@@ -2,6 +2,13 @@
 	margin:0px;
 }
 
+.menutop .navbar-collapse.navbar-ex1-collapse.collapse.in {
+    background: white;
+    margin: 0px;
+    /* padding: 0px; */
+    /* width: 100%; */
+}
+
 .thongtin a.btn.btn-succed {
     width: 180px;
     background: black;
@@ -54,7 +61,8 @@ body,html {
     width: 100%;
     height: 500px;
     background: #cc1e26;
-    position: relative;
+    position: absolute;
+    margin-top: 100px;
 }
 
 .khoislide:before {
@@ -69,6 +77,10 @@ body,html {
 	background: white;
 	margin: 0px;
 	padding: 0px;
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	
 	}
 
 .menutop ul li a {
@@ -83,6 +95,7 @@ body,html {
 
 .menutop .container {
     background: white;
+    height: 100px;
 }
 
 a.navbar-brand {
@@ -148,6 +161,18 @@ img {}
 }
 @media (max-width: 414px) {
 	*{}
+
+.menutop {
+    /* height: 50px !important; */
+    /* background: red !important; */
+}
+
+.khoislide {
+    /* margin: 0px; */
+    /* padding: 0px; */
+}
+
+.menutop {margin: 0px;padding: 0px;overflow: h;}
 
 .thongtin p {
     font-size: 13px;
