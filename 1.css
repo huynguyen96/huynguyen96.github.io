@@ -1,0 +1,46 @@
+{padding: 0px;
+	margin:0px;
+}
+.menutop{
+	height: 100px;
+	background: white;
+	margin: 0px;
+	padding: 0px;
+	}
+
+.menutop ul li a {
+    font-family: segoe ui;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-top: 25px;
+}
+
+.menutop ul li {
+}
+
+.menutop .container {
+    background: white;
+}
+
+a.navbar-brand {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-default {}
+
+nav.navbar.navbar-default {
+    height: 100px;
+    background: white;
+    border: 1px solid white;
+}
+
+.menutop img {
+    height: `100px;
+}
+
+.menutop img {
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+}
