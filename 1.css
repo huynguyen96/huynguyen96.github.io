@@ -1,4 +1,4 @@
-{padding: 0px;
+* {padding: 0px;
 	margin:0px;
 }
 .menutop{
@@ -41,6 +41,41 @@ nav.navbar.navbar-default {
 
 .menutop img {
     height: 100px;
-    margin: 0px;
-    padding: 0px;
+  
+}
+@media (max-width: 576px) {
+	*{}
+
+.menutop a {
+    margin-top: 0px !important;
+}
+
+img {
+    height: 50px !important;
+    margin-left: auto;
+    margin-right:auto;
+    
+}
+
+.menutop img {
+}
+
+img {/* height: 70px; */}
+}
+@media (max-width: 768px) {
+	*{}
+
+img {}
+
+.menutop img {
+    margin: 0px !important;
+}
+
+.menutop a {
+    font-size: 10px !important;
+}
+
+.menutop img {
+    margin-top: 10px;
+}
 }
