@@ -1,4 +1,5 @@
 ﻿ $(function(){
+  $(function(){
 	 vitri = $('#khoiedu').offset().top;
 	 console.log(vitri);
 	
@@ -6,5 +7,7 @@
 	 	$('body,html').animate({scrollTop:vitri}, 800);
 	 	return false;
 	 });
+})  
+ 
 })  
  
