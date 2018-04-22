@@ -1,0 +1,42 @@
+*{margin: 0;padding: 0;}
+
+.slide .tren {
+    width: 920px;
+}
+
+.slide .layer2 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1;
+    color: white;
+    margin: 5px;
+    background: #000000a6;
+    width: 2000px;
+}
+
+.menu .container {
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    height: 70px;
+    overflow: hidden;
+}
+
+.slide img.layer1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.slide {
+    width: 920px;
+    height: 690px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
